@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="side-hero">
+            <div id="logo">
+                <img src="images/odin-lined.png" alt="Odin logo">
+                <h1>Project Odinson</h1>
+            </div>
+            <p>Photo by John Fowler on Unsplash</p>
+        </div>
+        <div class="main-content">
+            <div class="header">
+                <p>Starting a fake account for a fake social media service is easy.<br><br> Just fill out the form below!</p>
+            </div>
+            <form>
+                <div class="form-container">
+                    <h2>Let's go!</h2>
+                    <div class="inputs">
+                        <div>
+                            <div>
+                                <label for="firstname">FIRST NAME</label>
+                                <input type="text" id="firstname" name="firstname" required="" placeholder="Shleo">
+                            </div>
+                            <div>
+                                <label for="lastname">LAST NAME</label>
+                                <input type="text" id="lastname" name="lastname" required="" placeholder="Shlim">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="email">EMAIL ADDRESS</label>
+                                <input type="email" id="email" name="email" required="" placeholder="Shleo@email.com"> 
+                            </div>
+                            <div>
+                                <label for="phonenumber">PHONE NUMBER</label>
+                                <input type="tel" id="phone-number" name="phone-number" placeholder="123-456-7890"> 
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="pass">PASSWORD</label>
+                                <input type="password" id="pass" name="password" required="" minlength="8" placeholder="123-456-7890"> 
+                            </div>
+                            <div>
+                                <label for="pass">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirm-pass" name="confirm-password" required="" minlength="8" placeholder="123-456-7890"> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="create-account" type="submit">Create Account</button>
+
+            </form>
+            <p class="login">Already have an account? <a href="">Log in</a>.
+            </p>
+
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>
